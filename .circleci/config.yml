@@ -1,66 +1,55 @@
+# .circleci/config.yml
 version: 2
 jobs:
   build:
     parallelism: 1
-    working_directory: ~/capybara-circleci
+    working_directory: ~/project-name
     docker:
       # this is important to use proper image with browsers support
-      - image: adiniz/rubywd
-     
-       
+      - image: circleci/ruby:2.4.2-node-browsers
+        environment:
+          PGHOST: 127.0.0.1
+          PGUSER: project-name
+          RAILS_ENV: test
+      - image: circleci/postgres:9.4.12-alpine
+        environment:
+          POSTGRES_DB: project-name_test
+          POSTGRES_PASSWORD: ""
+          POSTGRES_USER: project-name
       - image: redis:3.2.7
-    steps: # a collection of executable commands
-      - checkout # special step to check out source code to working directory
-      # Which version of bundler?
-      - run:
-          name: Which bundler?
-          command: bundle -v
+    steps:
+      - checkout
 
       # Restore bundle cache
-      - restore_cache:
-          keys:
-            - rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
-            - rails-demo-bundle-v2-
+      - type: cache-restore
+        # remove space between { {
+        key: project-name-{ { checksum "Gemfile.lock" }}
 
-      - run:
-          name: Bundle Install
-          command: bundle check || bundle install
+      # Bundle install dependencies
+      - run: bundle install --path vendor/bundle
 
       # Store bundle cache
-      - save_cache:
-          key: rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
+      - type: cache-save
+        # remove space between { {
+        key: project-name-{ { checksum "Gemfile.lock" }}
+        paths:
+          - vendor/bundle
 
-      - run:
-          name: Run Cucumber 
-          command: |
-            bundle exec cucumber -p
-      # Save test results for timing analysis
-      - store_test_results:
-          path: ~/capybara-circleci/logs
-      - store_artifacts:
-          path: ~/capybara-circleci/logs
-workflows:
-   version: 2
-   nightly:
-     triggers:
-       - schedule:
-           cron: "0 17 * * *"
-           filters:
-             branches:
-               only:
-                 - master
-                 - beta
-     jobs:
-       - build
+      # Prepare .env, useful if you use dotenv gem
+      - run: cp .env.example .env
 
-   all_commits:
-       jobs:
-           - build:
-               filters:
-                   branches:
-                       ignore:
-                           - developer
-                           - test
-      # See https://circleci.com/docs/2.0/deployment-integrations/ for example deploy configs
+      # Database setup
+      - run: bundle exec rake db:create
+      - run: bundle exec rake db:schema:load
+
+      # Run rspec in parallel
+      - type: shell
+        command: |
+          bundle exec rspec --profile 10 \
+                            --format RspecJunitFormatter \
+                            --out /tmp/test-results/rspec.xml \
+                            --format progress
+
+      # Save artifacts
+      - type: store_test_results
+        path: /tmp/test-results

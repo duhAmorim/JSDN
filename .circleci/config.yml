@@ -1,28 +1,66 @@
-# Use the latest 2.1 version of CircleCI pipeline process engine.
-# See: https://circleci.com/docs/2.0/configuration-reference
-version: 2.1
-
-# Define a job to be invoked later in a workflow.
-# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+version: 2
 jobs:
-  say-hello:
-    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
-    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
+  build:
+    parallelism: 1
+    working_directory: ~/capybara-circleci
     docker:
-      - image: qaninja/rubywd
-    # Add steps to the job
-    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
-    steps:
-      - checkout
+      # this is important to use proper image with browsers support
+      - image: adiniz/rubywd
+     
+       
+      - image: redis:3.2.7
+    steps: # a collection of executable commands
+      - checkout # special step to check out source code to working directory
+      # Which version of bundler?
       - run:
-          name: "Say hello"
-          command: "bundler install"
-          command: "cucumber"
+          name: Which bundler?
+          command: bundle -v
 
+      # Restore bundle cache
+      - restore_cache:
+          keys:
+            - rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
+            - rails-demo-bundle-v2-
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+
+      # Store bundle cache
+      - save_cache:
+          key: rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: Run Cucumber 
+          command: |
+            bundle exec cucumber -p ci
+      # Save test results for timing analysis
+      - store_test_results:
+          path: ~/capybara-circleci/logs
+      - store_artifacts:
+          path: ~/capybara-circleci/logs
 workflows:
-  say-hello-workflow:
-    jobs:
-      - say-hello
+   version: 2
+   nightly:
+     triggers:
+       - schedule:
+           cron: "0 17 * * *"
+           filters:
+             branches:
+               only:
+                 - master
+                 - beta
+     jobs:
+       - build
+
+   all_commits:
+       jobs:
+           - build:
+               filters:
+                   branches:
+                       ignore:
+                           - developer
+                           - test
+      # See https://circleci.com/docs/2.0/deployment-integrations/ for example deploy configs

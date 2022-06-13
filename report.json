@@ -1,0 +1,2009 @@
+[
+  {
+    "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja",
+    "uri": "features/FluxoLojaClone/FluxoLojaClone.feature",
+    "keyword": "Funcionalidade",
+    "name": "Criação de usuário na plataforma e compra de um produto na loja",
+    "description": "    Como cliente da Vivo, gostaria de poder acesssar o site e realizar um cadastro e uma compra na loja.",
+    "line": 9,
+    "tags": [
+      {
+        "name": "@criarClienteCompraLojaClone",
+        "line": 8
+      }
+    ],
+    "elements": [
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:13:in `que acessei a página da Vivo'",
+              "duration": 801405800
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43700
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48500
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 27,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:28:in `que acessei a página da Vivo'",
+              "duration": 563065400
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19800
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38900
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 42,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:43:in `que acessei a página da Vivo'",
+              "duration": 559015200
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 45,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 46,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 47,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 48,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 51,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 52,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 53,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 54,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41300
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 57,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 58,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:58:in `que acessei a página da Vivo'",
+              "duration": 562411600
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 59,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 62,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 63,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 64,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 65,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 66,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 67,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 68,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 69,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40800
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 72,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 73,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:73:in `que acessei a página da Vivo'",
+              "duration": 614132800
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 74,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 75,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 77,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 78,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 79,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 80,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 81,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 82,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 83,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 84,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32700
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43400
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 87,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 88,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:88:in `que acessei a página da Vivo'",
+              "duration": 564615000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 89,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 90,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 91,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 92,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 93,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 94,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 95,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 96,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 97,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 98,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 99,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31700
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38900
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 102,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 103,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:103:in `que acessei a página da Vivo'",
+              "duration": 565281000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 104,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 105,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 106,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 107,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 108,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 109,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 110,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 111,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 112,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 113,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 114,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34300
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 117,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 118,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:118:in `que acessei a página da Vivo'",
+              "duration": 724336800
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 119,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 120,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 121,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 122,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 123,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 124,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 125,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 126,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 127,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 128,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 129,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35700
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 132,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 133,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:133:in `que acessei a página da Vivo'",
+              "duration": 575613000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 134,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 135,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 136,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 137,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 138,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 139,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 140,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 141,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 142,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 143,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 144,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29700
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35300
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 147,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 148,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument: unrecognized capability: chromeOptions (Selenium::WebDriver::Error::InvalidArgumentError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x0042F763+915299]\n\tOrdinal0 [0x00467FB0+1146800]\n\tOrdinal0 [0x00467BEC+1145836]\n\tOrdinal0 [0x00468F15+1150741]\n\tOrdinal0 [0x00468D5A+1150298]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:148:in `que acessei a página da Vivo'",
+              "duration": 563389700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 149,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 150,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 151,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 152,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 153,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 154,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 155,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 156,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 157,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 158,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 159,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24300
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76800
+            }
+          }
+        ]
+      },
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 162,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 163,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "exit (SystemExit)\n./features/step_definitions/1-fluxoAltaCliente.rb:16:in `\"que acessei a página da Vivo\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:163:in `que acessei a página da Vivo'",
+              "duration": 392004600
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 164,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 165,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 166,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 167,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 168,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 169,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 170,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 171,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 172,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 173,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 174,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40400
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40600
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

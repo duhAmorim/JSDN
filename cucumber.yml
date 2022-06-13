@@ -1,4 +1,4 @@
-default:  --profile pretty -p html -p chrome -p json 
+default:  --profile pretty -p html -p chrome_headless -p json 
 pretty: --no-source --color --format pretty
 progress: --format progress
 

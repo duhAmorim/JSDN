@@ -1,0 +1,257 @@
+[33mcommit 55f40a15000d8cd762fcf9eaf5d0b1d127e844de[m[33m ([m[1;36mHEAD -> [m[1;32mMateusBhDev[m[33m, [m[1;31morigin/MateusBhDev[m[33m)[m
+Author: Mateus Vitorino Guimarães <mateusvitorino@outlook.com.br>
+Date:   Mon Jul 19 11:31:03 2021 -0300
+
+    Inclusão de IFRAME na step Geracao DescIncondicional
+
+[33mcommit 3e945ebafdd031c6f7d74e136481ab91cfb45b41[m
+Author: Mateus Vitorino Guimarães <mateusvitorino@outlook.com.br>
+Date:   Mon Jul 19 09:14:13 2021 -0300
+
+    Alteracoes Melhorias codigo organizacao
+
+[33mcommit c90a5291324200c13d6d928eeabe87a0eed541c2[m
+Author: Mateus Vitorino Guimarães <mateusvitorino@outlook.com.br>
+Date:   Fri Jul 16 15:47:44 2021 -0300
+
+    Organização Fluxo AltaCliente
+
+[33mcommit d53496709331271eba3f2e9155017061d0595c30[m
+Author: Mateus Vitorino Guimarães <mateusvitorino@outlook.com.br>
+Date:   Fri Jun 25 12:03:48 2021 -0300
+
+    FluxoAltacliente
+
+[33mcommit 79a7e333a32f4e7dd21629df87955a1b8702da7b[m
+Merge: 143b626 b146847
+Author: Mateus Vitorino Guimarães <mateusvitorino@gmail.com>
+Date:   Tue Jun 22 17:26:49 2021 -0300
+
+    Merge branch 'MateusBhDev' of https://dev.azure.com/globalwebcsb/GW_CLOUD_SPO_TELEFONICA_CSB/_git/GW_QA_Automacao_Plataforma_Digital into MateusBhDev
+
+[33mcommit 143b62685463a7acb6984d303a2c468a00c1181e[m
+Author: Mateus Vitorino Guimarães <mateusvitorino@gmail.com>
+Date:   Tue Jun 22 16:46:10 2021 -0300
+
+    Fluxo_Alta_Cliente
+
+[33mcommit b1468476ad6e19834ac6d8a14e8fa6cb946efcbe[m
+Author: Mateus Vitorino Guimarães <mateusvitorino@outlook.com.br>
+Date:   Tue Jun 22 19:38:09 2021 +0000
+
+    Added FluxoAltaCliente.rb to /features/step_definitions
+
+[33mcommit 85bb4b1a3eef719c9ee07297c9aaebe88e835036[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/Will-Test[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 261cc0f 3ff1c86
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Fri Jun 4 15:37:34 2021 -0300
+
+    merge
+
+[33mcommit 261cc0f057dc8a9856582078190d2e7658f74bf2[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Fri Jun 4 15:31:45 2021 -0300
+
+    test
+
+[33mcommit 3ff1c861b6278186bbb7c96296faf45051f94678[m
+Merge: b2764cd 550339a
+Author: Eduardo dos SantosAmorim <duh-amorim@hotmail.com>
+Date:   Sat Apr 17 13:33:20 2021 +0000
+
+    Merged PR 6594: robostgfim
+
+[33mcommit 550339abc9edad4273f8cf950dd61d9400160c27[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Sat Apr 17 10:21:13 2021 -0300
+
+    roboSTG
+
+[33mcommit f2a17438aee452cfa20e1cdc1268f6a81ed1308a[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Fri Apr 9 17:52:58 2021 -0300
+
+    interagindo com iframe
+
+[33mcommit 904e83cd411793d050072fb4ea3f3160587d8353[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Tue Mar 30 22:13:02 2021 -0300
+
+    bdd robo
+
+[33mcommit b2764cd5dba59c605858a10eedb0cd501ed8e615[m
+Merge: 7edcf09 a3e669b
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Thu Mar 11 16:57:04 2021 -0300
+
+    Merge branch 'master' of https://dev.azure.com/globalwebcsb/GW_CLOUD_SPO_TELEFONICA_CSB/_git/GW_QA_Automacao_Plataforma_Digital
+
+[33mcommit 7edcf09894bbc37c945a8df22cbe0d7df7efea14[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Thu Mar 11 16:56:51 2021 -0300
+
+    Correcao do Gemfile - Edu
+
+[33mcommit a3e669bf4b5fe4251c0edb13d334e66be05c901e[m
+Merge: 09d1bcd 065f551
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 17:34:02 2020 -0300
+
+    Merge branch 'TestGit' of https://dev.azure.com/globalwebcsb/GW_CLOUD_SPO_TELEFONICA_CSB/_git/GW_QA_Automacao_Plataforma_Digital into TestGit
+
+[33mcommit 065f55184cb797d69eae87a69c4164315fc15da1[m
+Author: Eduardo dos SantosAmorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 20:36:31 2020 +0000
+
+    Updated pull.txt
+
+[33mcommit 09d1bcddb73e827037a2a4a41067935a2d4a36ec[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 17:33:52 2020 -0300
+
+    arquivo2
+
+[33mcommit 7a260096288f0dc7b2f105b5ae5cdeb24939b3ab[m
+Merge: 35b82f0 ee02c5f
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 17:31:26 2020 -0300
+
+    Merge branch 'TestGit' of https://dev.azure.com/globalwebcsb/GW_CLOUD_SPO_TELEFONICA_CSB/_git/GW_QA_Automacao_Plataforma_Digital into TestGit
+
+[33mcommit ee02c5fae38d2f38eafdd0534185ef6d145f466e[m
+Author: Eduardo dos SantosAmorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 20:31:18 2020 +0000
+
+    Updated pull.txt
+
+[33mcommit 35b82f043d7625907cb8d26e67d346975f5ca359[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 17:28:46 2020 -0300
+
+    muda 3
+
+[33mcommit ab7c01c5b31601ae82872a25595c38699bebd98f[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 17:27:28 2020 -0300
+
+    muda1
+
+[33mcommit 77e6c2a5a042ef0720ad949d0fa1107bc578c510[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Mon Dec 28 17:24:32 2020 -0300
+
+    Primeiro teste
+
+[33mcommit 6046e306fa3924b3ff1c384050204c857e1913e7[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 13:14:59 2020 -0300
+
+    git
+
+[33mcommit 28dbb966b25a277aadd8cd36e052b7ca7d59ed3f[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 13:14:23 2020 -0300
+
+    env
+
+[33mcommit 8b68bdfb8c0063bfcbe0ea2038d45fbcdac229a0[m
+Merge: 1d1e982 ca89eae
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 13:12:21 2020 -0300
+
+    Merge branch 'master' of https://dev.azure.com/globalwebcsb/GW_CLOUD_SPO_TELEFONICA_CSB/_git/GW_QA_Automacao_Plataforma_Digital
+
+[33mcommit 1d1e9820c15895286b3722998ebe64e788a03252[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 13:12:05 2020 -0300
+
+    dsf
+
+[33mcommit ca89eae7f0252fcc3d59dc659e57966afbcde507[m
+Merge: 3ed3807 861a6b3
+Author: renan <renan.ferrari@globalweb.com.br>
+Date:   Wed Aug 5 13:08:21 2020 -0300
+
+    Merge branch 'master' of https://dev.azure.com/globalwebcsb/GW_CLOUD_SPO_TELEFONICA_CSB/_git/GW_QA_Automacao_Plataforma_Digital
+
+[33mcommit 861a6b32a0b5298189bdcc6d4e4cc180afd2e070[m
+Merge: 5a238e9 2f4af85
+Author: Eduardo dos SantosAmorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 14:52:15 2020 +0000
+
+    Merged PR 2989: merge edu
+    
+    Related work items: #14617
+
+[33mcommit 2f4af858db8047b80bef734b17bca2f00e9f8b97[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 11:48:42 2020 -0300
+
+    merge
+
+[33mcommit b3e661046df2357c267c90faea9ceff643fe27d9[m
+Merge: c643a1e 2b63c7a
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 11:48:30 2020 -0300
+
+    Merge branch 'master' into DEV
+
+[33mcommit c643a1ec3714b6860239cc25a3f7dd27b3a29a52[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Wed Aug 5 11:45:16 2020 -0300
+
+    .....
+
+[33mcommit 3ed38071fb83b7a34f7566f9e15f2a55f5809d79[m
+Author: renan <renan.ferrari@globalweb.com.br>
+Date:   Mon Aug 3 17:07:55 2020 -0300
+
+    renan
+
+[33mcommit e4357fce953c7bb8bc6a7ece518c92f9472e8dd9[m[33m ([m[1;31morigin/Matheus-Dev[m[33m)[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Tue Jul 28 23:10:56 2020 -0300
+
+    teste
+
+[33mcommit f291d05dd4f6090c6c877c867e866591dbe3a8a2[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Tue Jul 28 23:09:02 2020 -0300
+
+    gitignore
+
+[33mcommit 13c91f571fc5d5d28494378d451ecfc622f2a209[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Tue Jul 28 23:04:00 2020 -0300
+
+    Compra e relatorio resolvido
+
+[33mcommit 2b63c7ab2d07de9480298ab74590bc2559420233[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Tue Jul 28 20:56:09 2020 -0300
+
+    comit
+
+[33mcommit 4f1cf5984af11b578fd6b574fe0583f114b071cc[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Fri May 15 20:23:17 2020 -0300
+
+    vvv
+
+[33mcommit 568aed22158c5dbed160816c81ef1ed5912a5024[m
+Author: Eduardo Amorim <duh-amorim@hotmail.com>
+Date:   Tue May 12 21:14:16 2020 -0300
+
+    +++
+
+[33mcommit 5a238e91caf5941b19fd35f7c5ee69b3d3d0e41c[m
+Merge: 8cb48bd 2ec7b07
+Author: Eduardo dos SantosAmorim <duh-amorim@hotmail.com>
+Date:   Wed Mar 11 18:47:48 2020 +0000
+
+    Merged PR 1825: Automação de API
+    
+    Automação de API
+
+[33mcommit 2ec7b07792ca7e5894fc39b226b0314f92b6bb8e[m
+Author: Eduardo Amorim <duh-amo

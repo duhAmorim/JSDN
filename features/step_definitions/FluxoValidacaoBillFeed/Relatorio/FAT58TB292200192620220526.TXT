@@ -1,0 +1,11 @@
+IDFAT58TB292200192620220526.TXT 03062022182919
+HHFATTBRA29SP
+D1000000000101062022ECM       FATGOOGLEGCPGW              89,04                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos C 41431077  SP
+D1000000000201062022ECM       FATGOOGLEGCPGW              89,04                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos D 11211142  SP
+D1000000000301062022ECM       FATGOOGLEGWSGW              66,68                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos C 41431077  SP
+D1000000000401062022ECM       FATGOOGLEGWSGW              66,68                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos D 11211142  SP
+D1000000000501062022ECM       FATO365CSPGW               910,08                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos C 41435025  SP
+D1000000000601062022ECM       FATO365CSPGW               910,08                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos D 11211142  SP
+D1000000000701062022ECM       FATSERASAPREMGW             29,34                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos C 41431068  SP
+D1000000000801062022ECM       FATSERASAPREMGW             29,34                                      GW29TR018233T2929SP                 0120220526                          9141Boleto              Pos D 11211142  SP
+FF000008         2190,28

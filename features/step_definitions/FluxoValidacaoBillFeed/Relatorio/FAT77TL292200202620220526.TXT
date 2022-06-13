@@ -1,0 +1,13 @@
+IDFAT77TL292200202620220526.TXT 03062022182906
+HHFATTLF229SP
+D1000000000127052022FAT       FATACENSDOMINGW           1197,00                                      GW29CR018200C2929SP                 2720220526                          0001Boleto              Pos C 41435023  SP
+D1000000000227052022FAT       FATACENSDOMINGW           1197,00                                      GW29CR018200C2929SP                 2720220526                          0001Boleto              Pos D 11215115  SP
+D1000000000327052022FAT       FATACENSDOMINGW             79,80                                      GW29CR018200C2940DF                 2720220526                          0001Boleto              Pos C 41435023  DF
+D1000000000427052022FAT       FATACENSDOMINGW             79,80                                      GW29CR018200C2940DF                 2720220526                          0001Boleto              Pos D 11215115  DF
+D1000000000527052022FAT       FATACENSEMAILGW              0,18                                      GW29CR018200C2936PI                 2720220526                          0001Boleto              Pos C 41435023  PI
+D1000000000627052022FAT       FATACENSEMAILGW              0,18                                      GW29CR018200C2936PI                 2720220526                          0001Boleto              Pos D 11215115  PI
+D1000000000727052022FAT       FATGOOGLEGWSGW              34,00                                      GW29CR018200C2929SP                 2720220526                          0001Boleto              Pos C 41431077  SP
+D1000000000827052022FAT       FATGOOGLEGWSGW              34,00                                      GW29CR018200C2929SP                 2720220526                          0001Boleto              Pos D 11215115  SP
+D1000000000927052022FAT       FATO365CSPGW               277,12                                      GW29CR018200C2929SP                 2720220526                          0001Boleto              Pos C 41435025  SP
+D1000000001027052022FAT       FATO365CSPGW               277,12                                      GW29CR018200C2929SP                 2720220526                          0001Boleto              Pos D 11215115  SP
+FF000010         3176,20

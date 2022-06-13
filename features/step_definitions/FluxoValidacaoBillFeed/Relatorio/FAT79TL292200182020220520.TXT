@@ -1,0 +1,5 @@
+IDFAT79TL292200182020220520.TXT 03062022183444
+HHFATTLF229SP
+D1000000000121052022CONT      FATGOOGLEGWSGW               0,06                                      GW29CR018200C2929SP                 0120220520                          0001Boleto              Pos C 11215115  SP
+D1000000000221052022CONT      FATGOOGLEGWSGW               0,06                                      GW29CR018200C2929SP                 0120220520                          0001Boleto              Pos D 41431077  SP
+FF000002            0,12

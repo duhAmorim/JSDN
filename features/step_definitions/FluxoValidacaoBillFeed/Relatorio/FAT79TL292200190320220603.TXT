@@ -1,0 +1,7 @@
+IDFAT79TL292200190320220603.TXT 03062022183509
+HHFATTLF229SP
+D1000000000121062022CONT      FATGOOGLEGWSGW               0,22                                      GW29CR018200C2929SP                 0120220603                          0001Boleto              Pos C 11215115  SP
+D1000000000221062022CONT      FATGOOGLEGWSGW               0,22                                      GW29CR018200C2929SP                 0120220603                          0001Boleto              Pos D 41431077  SP
+D1000000000321062022CONT      FATGOOGLEGWSGW              12,00                                      GW29CR018200C2931SC                 0120220603                          0001Boleto              Pos C 11215115  SC
+D1000000000421062022CONT      FATGOOGLEGWSGW              12,00                                      GW29CR018200C2931SC                 0120220603                          0001Boleto              Pos D 41431077  SC
+FF000004           24,44

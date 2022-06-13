@@ -1,0 +1,13 @@
+IDFAT80TL292200192620220526.TXT 03062022182919
+HHFATTLF229SP
+D1000000000101062022ECM       FATACENSDOMINGW           1197,00                                      GW29CR018200C2929SP                 0120220526                          0001Boleto              Pos C 41435023  SP
+D1000000000201062022ECM       FATACENSDOMINGW           1197,00                                      GW29CR018200C2929SP                 0120220526                          0001Boleto              Pos D 11211142  SP
+D1000000000301062022ECM       FATACENSDOMINGW             79,80                                      GW29CR018200C2940DF                 0120220526                          0001Boleto              Pos C 41435023  DF
+D1000000000401062022ECM       FATACENSDOMINGW             79,80                                      GW29CR018200C2940DF                 0120220526                          0001Boleto              Pos D 11211142  DF
+D1000000000501062022ECM       FATACENSEMAILGW              0,18                                      GW29CR018200C2936PI                 0120220526                          0001Boleto              Pos C 41435023  PI
+D1000000000601062022ECM       FATACENSEMAILGW              0,18                                      GW29CR018200C2936PI                 0120220526                          0001Boleto              Pos D 11211142  PI
+D1000000000701062022ECM       FATGOOGLEGWSGW              68,00                                      GW29CR018200C2929SP                 0120220526                          0001Boleto              Pos C 41431077  SP
+D1000000000801062022ECM       FATGOOGLEGWSGW              68,00                                      GW29CR018200C2929SP                 0120220526                          0001Boleto              Pos D 11211142  SP
+D1000000000901062022ECM       FATO365CSPGW               277,12                                      GW29CR018200C2929SP                 0120220526                          0001Boleto              Pos C 41435025  SP
+D1000000001001062022ECM       FATO365CSPGW               277,12                                      GW29CR018200C2929SP                 0120220526                          0001Boleto              Pos D 11211142  SP
+FF000010         3244,20

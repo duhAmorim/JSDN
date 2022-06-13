@@ -1,0 +1,26 @@
+---
+nomeAnalista: Mateus Vitorino Guimarães
+emailAnalista: mateusvitorino@gmail.com
+telefoneAnalista: 31 99127-8565
+ambiente: admin-clone
+nomeCliente: Jeffrey
+usuarioEmail: nytuc@robot-mail.com
+senha: 123456
+nomeOferta: Construtor de Sites
+nomeProduto: Construtor de Sites - Básico
+quantidade: 1
+usuarioAdmin: eduardo.amorim@globalweb.com.brtemp
+senhaAdmin: Vivo@2021
+usuarioFluxoPresencial: jonicler.isaias.saldanha@everis.nttdata.com
+senhaFluxoPresencial: Vivo@2020
+fluxoPresencialCPF: '21652385797'
+fluxoPresencialCNPJ: '61261473267052'
+fluxoPresencialEmail: terence_mohr@mclaughlin.co
+fluxoPresencialEmpresa: benchmark e-business technologies
+usuarioPTAX: cicoke@zetmail.com
+senhaPTAX: 123456
+valorPTAXDescontoUSD: 15
+dataInicialRelatorioReceitaContestacao: 20/04/2022
+dataFinalRelatorioReceitaContestacao: 16/05
+diretorioAutomacao: C:/Users/mateu/Desktop/Vivo/backup/master/GW_QA_Automacao_Plataforma_Digital/
+diretorioPastaDownloads: C:\Users\mateu\Downloads\

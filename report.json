@@ -1,0 +1,211 @@
+[
+  {
+    "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja",
+    "uri": "features/FluxoLojaClone/FluxoLojaClone.feature",
+    "keyword": "Funcionalidade",
+    "name": "Criação de usuário na plataforma e compra de um produto na loja",
+    "description": "    Como cliente da Vivo, gostaria de poder acesssar o site e realizar um cadastro e uma compra na loja.",
+    "line": 9,
+    "tags": [
+      {
+        "name": "@criarClienteCompraLojaClone",
+        "line": 8
+      }
+    ],
+    "elements": [
+      {
+        "id": "criação-de-usuário-na-plataforma-e-compra-de-um-produto-na-loja;criar-um-usuario-valido-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Criar um usuario valido na plataforma",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei a página da Vivo",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3162945700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar em Prosseguir no cadastro de usuario",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:9"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=102.0.5005.63) (Selenium::WebDriver::Error::NoSuchWindowError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x00404120+737568]\n\tOrdinal0 [0x00466E29+1142313]\n\tOrdinal0 [0x00473FB2+1195954]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/support/helper.rb:10:in `tirar_foto'\n./features/step_definitions/0-criarCliente.rb:11:in `\"clicar em Prosseguir no cadastro de usuario\"'\nfeatures/FluxoLojaClone/FluxoLojaClone.feature:14:in `clicar em Prosseguir no cadastro de usuario'",
+              "duration": 944217900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizar todas válidações para a criação de um novo usuario",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deve exibir o usuário logado mostrando o nome do usuario criado na tela principal",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/0-criarCliente.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clicar no botão Catálogo",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher um produto Saas digitar nome Oferta",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "escolher o produto e clicar em Adicionar ao Carrinho",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:48"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "posso finalizar a compra",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:74"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar o credito no ambiente admin",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/lojaClone.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizar a compra concordando com o contrato de servicos",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "na pagina RESUMO validar o nome do produto",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:167"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "verificar a compra realizada na tela PEDIDO CONCLUIDO com os campos nome do Produto e valor Boleto",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/1-fluxoAltaCliente.rb:171"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criarClienteCompraLojaClone",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:2"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=102.0.5005.63) (Selenium::WebDriver::Error::NoSuchWindowError)\nBacktrace:\n\tOrdinal0 [0x0059D953+2414931]\n\tOrdinal0 [0x0052F5E1+1963489]\n\tOrdinal0 [0x0041C6B8+837304]\n\tOrdinal0 [0x00404120+737568]\n\tOrdinal0 [0x00466E29+1142313]\n\tOrdinal0 [0x00473FB2+1195954]\n\tOrdinal0 [0x004642B6+1131190]\n\tOrdinal0 [0x0043E860+976992]\n\tOrdinal0 [0x0043F756+980822]\n\tGetHandleVerifier [0x0080CC62+2510274]\n\tGetHandleVerifier [0x007FF760+2455744]\n\tGetHandleVerifier [0x0062EABA+551962]\n\tGetHandleVerifier [0x0062D916+547446]\n\tOrdinal0 [0x00535F3B+1990459]\n\tOrdinal0 [0x0053A898+2009240]\n\tOrdinal0 [0x0053A985+2009477]\n\tOrdinal0 [0x00543AD1+2046673]\n\tBaseThreadInitThunk [0x7641FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77997A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77997A4E+238]\n./features/support/helper.rb:10:in `tirar_foto'\n./features/support/hooks.rb:6:in `After'",
+              "duration": 21381800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.36.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "exit (SystemExit)",
+              "duration": 1143332100
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

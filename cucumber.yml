@@ -2,6 +2,7 @@ default:  --profile pretty -p html -p chrome_headless -p json
 pretty: --no-source --color --format pretty
 progress: --format progress
 
+
 html: --format pretty --format html --out=reports/relatorio.html
 chrome_headless: BROWSER=chrome_headless
 chrome: BROWSER=chrome

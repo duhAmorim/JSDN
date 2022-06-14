@@ -1,0 +1,78 @@
+pipeline {
+    agent {
+        docker {
+            image 'qaninja/rubywd'
+        }
+    }
+    
+    stages {
+        stage('Build'){
+            steps{
+                echo 'Bilding resolve Dependencies'
+                sh 'bundler install'
+                
+            }   
+        }
+        stage('Test1'){
+            steps {
+                echo 'running testes regreção'
+                sh 'cucumber -p ci'
+                }
+                post{
+                    always{
+                            cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+            
+                    }
+                }
+            }
+        stage('UAT2'){
+            steps {
+                echo 'running testes regreção'
+                sh 'cucumber -p ci'
+                }
+                post{
+                    always{
+                            cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+            
+                    }
+                }
+            } 
+        stage('Prod3'){
+           steps {
+                echo 'running testes regreção'
+                sh 'cucumber -p ci'
+                }
+                post{
+                    always{
+                            cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+            
+                    }
+                }
+            }   
+             stage('Prod4'){
+           steps {
+                echo 'running testes regreção'
+                sh 'cucumber -p ci'
+                }
+                post{
+                    always{
+                            cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+            
+                    }
+                }
+            }  
+             stage('Prod5'){
+           steps {
+                echo 'running testes regreção'
+                sh 'cucumber -p ci'
+                }
+                post{
+                    always{
+                            cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+            
+                    }
+                }
+            }    
+        
+    }
+}
